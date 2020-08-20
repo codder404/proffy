@@ -34,7 +34,7 @@ export default function Home() {
         alignItems='stretch'
         padding={16}>
         <Input placeholder='E-mail' />
-        <Input placeholder='Senha' />
+        <Input placeholder='Senha' marginTop={2} />
         <Link
           alignSelf='flex-start'
           marginTop={2}
