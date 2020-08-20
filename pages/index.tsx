@@ -9,6 +9,7 @@ import {
   Button,
   Text,
 } from '@chakra-ui/core';
+import Divider from '../components/Divider';
 
 export default function Home() {
   return (
@@ -80,6 +81,7 @@ export default function Home() {
             Registre-se
           </Link>
         </Text>
+        <Divider />
       </Flex>
     </Grid>
   );
