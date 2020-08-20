@@ -11,6 +11,7 @@ const Input: React.FC<ChakraInputProps> = (props) => {
       backgroundColor='gray.800'
       focusBorderColor='purple.500'
       borderRadius='sm'
+      {...props}
     />
   );
 };
