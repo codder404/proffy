@@ -82,6 +82,18 @@ export default function Home() {
           </Link>
         </Text>
         <Divider />
+        <Flex alignItems='center'>
+          <Text fontSize='sm'>Ou entre com</Text>
+          <Button
+            height='50px'
+            flex='1'
+            backgroundColor='gray.600'
+            marginLeft={6}
+            borderRadius='sm'
+            _hover={{ backgroundColor: 'purple.500' }}>
+            GITHUB
+          </Button>
+        </Flex>
       </Flex>
     </Grid>
   );
