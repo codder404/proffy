@@ -32,7 +32,9 @@ export default function Home() {
       justifyContent='center'
       alignItems='center'>
       <Flex gridArea='logo' flexDir='column' alignItems='flex-start'>
-        <img src='/rocketseat.svg' alt='Rocketseat' />
+        <Heading size='lg' color='purple.500'>
+          Fernando Logo
+        </Heading>
 
         <Heading size='2xl' lineHeight='shorter' marginTop={16}>
           Faça seu login na plataforma
