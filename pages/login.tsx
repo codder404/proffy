@@ -20,7 +20,7 @@ import Divider from '../components/Divider';
 import Input from '../components/Input';
 import Icon from '../components/Icon';
 
-export default function Home() {
+export default function Login() {
   return (
     <Grid
       as='main'
