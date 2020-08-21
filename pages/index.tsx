@@ -1,8 +1,12 @@
 import React from 'react';
-import { Heading } from '@chakra-ui/core';
+import { Heading, Grid, Flex } from '@chakra-ui/core';
 
 const Home: React.FC = () => {
-  return <Heading>Seja bem-vindo</Heading>;
+  return (
+    <Heading textAlign='center' marginTop={16}>
+      Seja bem-vindo
+    </Heading>
+  );
 };
 
 export default Home;
