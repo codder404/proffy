@@ -7,7 +7,7 @@ interface ChakraIconProps {
 
 const Icon: React.FC<ChakraIconProps> = (props) => {
   return (
-    <ChakraIcon color='gray.700' fontSize='1.2em' marginTop={2} {...props} />
+    <ChakraIcon color='gray.700' fontSize='1em' marginTop={2} {...props} />
   );
 };
 
