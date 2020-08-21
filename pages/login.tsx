@@ -55,7 +55,7 @@ export default function Home() {
           <InputLeftElement children={<Icon name='email' />} />
           <Input type='email' placeholder='E-mail' />
         </InputGroup>
-        <InputGroup>
+        <InputGroup marginTop={2}>
           <InputLeftElement children={<Icon name='lock' />} />
           <Input type='password' placeholder='Senha' />
           <InputRightElement children={<Icon name='view' />} />
