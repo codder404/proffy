@@ -1,9 +1,8 @@
 import React from 'react';
-
-// import { Container } from './styles';
+import { Heading } from '@chakra-ui/core';
 
 const Home: React.FC = () => {
-  return <div />;
+  return <Heading>Seja bem-vindo</Heading>;
 };
 
 export default Home;
