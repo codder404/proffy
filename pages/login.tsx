@@ -80,6 +80,7 @@ export default function Home() {
         <Text textAlign='center' fontSize='sm' color='gray.300' marginTop={6}>
           Não tem uma conta?{' '}
           <Link
+            href='/register'
             color='purple.600'
             fontWeight='bold'
             _hover={{ color: 'purple.500' }}>
