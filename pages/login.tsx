@@ -13,6 +13,9 @@ import {
   InputLeftElement,
   InputRightElement,
 } from '@chakra-ui/core/dist/InputElement';
+
+import { FaGithub } from 'react-icons/fa';
+
 import Divider from '../components/Divider';
 import Input from '../components/Input';
 import Icon from '../components/Icon';
@@ -93,7 +96,7 @@ export default function Home() {
             marginLeft={6}
             borderRadius='sm'
             _hover={{ backgroundColor: 'purple.500' }}>
-            GITHUB
+            <FaGithub size={24} className='icon' /> GITHUB
           </Button>
         </Flex>
       </Flex>
