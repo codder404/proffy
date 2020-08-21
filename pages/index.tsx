@@ -8,15 +8,14 @@ import {
   Button,
   Text,
   InputGroup,
-  Icon,
-  Stack,
 } from '@chakra-ui/core';
-import Divider from '../components/Divider';
-import Input from '../components/Input';
 import {
   InputLeftElement,
   InputRightElement,
 } from '@chakra-ui/core/dist/InputElement';
+import Divider from '../components/Divider';
+import Input from '../components/Input';
+import Icon from '../components/Icon';
 
 export default function Home() {
   return (
@@ -48,19 +47,13 @@ export default function Home() {
         alignItems='stretch'
         padding={16}>
         <InputGroup>
-          <InputLeftElement
-            children={<Icon name='email' color='gray.300' marginTop={2} />}
-          />
+          <InputLeftElement children={<Icon name='email' />} />
           <Input type='email' placeholder='E-mail' />
         </InputGroup>
         <InputGroup>
-          <InputLeftElement
-            children={<Icon name='lock' color='gray.300' marginTop={2} />}
-          />
+          <InputLeftElement children={<Icon name='lock' />} />
           <Input type='password' placeholder='Senha' />
-          <InputRightElement
-            children={<Icon name='view' color='gray.300' marginTop={2} />}
-          />
+          <InputRightElement children={<Icon name='view' />} />
         </InputGroup>
         <Link
           alignSelf='flex-start'
